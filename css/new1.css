@@ -1,11 +1,9 @@
 body{ 
    background-image: url("phoenix.jpg");
-   background-position: center;	
-   background-attachment: fixed;
-   background-size: 60% 100%;
    background-repeat: no-repeat;
-}
-
+   background-position: center;
+   background-attachment: fixed;
+   background-size: 70%; 
 .navbar {
     overflow: hidden;
     background-color: #333;
