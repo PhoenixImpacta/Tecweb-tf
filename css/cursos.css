@@ -10,3 +10,11 @@
     width: 300px;
     margin-left: 500px;
 }
+
+#div_bacharel a{
+    text-decoration: none;
+}
+
+#div_tecnologo a{
+    text-decoration: none;
+}
