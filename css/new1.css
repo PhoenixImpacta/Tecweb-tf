@@ -50,12 +50,18 @@ nav li{
     color: #333;
     text-decoration: none;
     border-bottom:4px solid #EDEDED;
+	transition: 0.9s ease;
+	border-radius: 10px;
+	
 }
 
 #menu ul li a:hover {
-    background-color: #4c4c4c;
+	transition: 0.9s ease;
+    
     color: #ffffff;
-    border-bottom:4px solid rgba(255, 94, 35, 0.73);;
+    border-bottom:4px solid rgba(255, 94, 35, 0.73);
+	
+	
 }
 
 #div_imagem{
@@ -67,7 +73,10 @@ nav li{
     height: 256px;
     overflow: hidden;
 }
-
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
 /*
 =====================================================================
             FIM CONFIGURAÃ‡Ã•ES DO MENU
