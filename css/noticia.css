@@ -26,12 +26,9 @@ nav li{
     padding: 20px;
 }
 
-#menu{
-   
-}
 
 #menu ul {
-    background-color:#EDEDED;
+    background-color:#fff;
     list-style:none;
 }
 
@@ -73,6 +70,12 @@ nav li{
 */
 
 
+/*
+=====================================================================
+            CONFIGURAÇÕES DO SECTION
+=====================================================================
+*/
+
 .noticia { 
     background-color: #444; 
     color: #fff; 
@@ -83,7 +86,7 @@ nav li{
   }
   
   section{
-      margin-left: 100px;
-      margin-right: 100px;
+      margin-left: 130px;
+      margin-right: 130px;
       border: 1px solid #000;
   }
