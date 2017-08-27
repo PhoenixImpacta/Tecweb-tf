@@ -4,9 +4,11 @@
 body{ 
    background-image: url("phoenix.jpg");
    background-repeat: no-repeat;
-   background-position: center;
+   background-position: center center;
    background-attachment: fixed;
-   background-size: 70%; 
+   background-size: 70% ; 
+   margin-left: 0;
+   margin-right: 0;
 }
 
 .navbar {
