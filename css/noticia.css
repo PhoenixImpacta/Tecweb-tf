@@ -26,6 +26,24 @@ section{
     margin-left: 200px;    
 }
 
-#imagem{
+.imagem_noticia{
     float: left;
+}
+
+#tecnologia{
+    margin-top: -15px;
+    text-align: left;
+    margin-left: 200px;    
+}
+
+#tcc{
+    margin-top: 30px;
+    text-align: left;
+    margin-left: 200px;    
+}
+
+#emprego{
+    margin-top: 30px;
+    text-align: left;
+    margin-left: 200px;
 }
