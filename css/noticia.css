@@ -5,16 +5,27 @@
 */
 
 .noticia { 
-    background-color: #444; 
+    background-color: rgba(0, 24, 122, 0.54); 
     color: #fff; 
     border-radius: 5px; 
     padding: 20px; 
     margin: 3px;
     font-size: 150%; 
-  }
-  
-  section{
-      margin-left: 130px;
-      margin-right: 130px;
-      border: 1px solid #000;
-  }
+    height: 120px;
+}
+
+section{
+    margin-left: 200px;
+    margin-right: 200px;
+    border: 1px solid #000;
+}
+
+#desconto{
+    margin-top: 32px;
+    text-align: left;
+    margin-left: 200px;    
+}
+
+#imagem{
+    float: left;
+}
