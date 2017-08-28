@@ -9,8 +9,22 @@ body{
    margin-left: 0;
    margin-right: 0;
    margin-top: 590px;
+   font-size: 20px;
    
 }
+
+
+.h1{
+	background-position: center center;
+	font-size:50px;
+	}
+
+.corpo {
+	width: 960px;
+	margin: auto;
+	font-size: 50px
+}
+
 
 .navbar {
     overflow: hidden;
@@ -75,7 +89,14 @@ p {
     font-family: verdana;
     font-size: 15px;
 }
+.texto {
+	margin-top: -500px
+	
+	
+}
+.tex{
+	font-size:50px;
+	
 
+}
 
-
-  
