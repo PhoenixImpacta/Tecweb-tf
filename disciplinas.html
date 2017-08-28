@@ -3,59 +3,88 @@
     <head>
         <style>
             table {
-                size: 5px;
-                border: 3px solid black;
-                border-collapse: collapse;
-                padding: 10px;
-                text-align: left;
-                font-size: 14px;
+                position:relative;
+                float:left;
+		bottom: 5%;		
+		border-collapse: collapse;
+		font-size: 14px;
                 font-family: Verdana;
-            }
+				
+	    }
+	    td a{
+		text-decoration: none;
+		font-family: sans-serif;
+		color: #2F4077;
+		transition: 0.5s;
+		font-weight: bold;
+	    }
+	    td:hover{
+		background: #939393;
+		
+		
+		
+		}
+	td a:hover{
+		color:white;
+		}
             td {
-                border: 3px solid black;
-                border-collapse: collapse;
-                padding: 1px;
+				
+                border: 1px solid black;
+                
+                padding: 5px;
                 text-align: left;
                 font-size: 20px;
                 font-family: Verdana;
+		        transition: 0.5s;
+				width: 50%;
+				background:rgba(108, 139, 194, 0.91);
+				
+		
             }
             th {
-                border: 3px solid black;
-                border-collapse: collapse;
-                padding: 1px;
-                text-align: left;
+				
+                border: 1px solid black;
+                
+                text-align: center;
                 font-size: 20px;
                 font-family: Verdana;
+				background:rgba(108, 139, 194, 0.91);
+			
+		   
             }
         </style>
 
 
-        <title>Universidade Phoenix</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=no" />
-        <link rel="stylesheet" type="text/css" href="./css/new1.css" />
+<meta charset=utf-8" />
+<title>Disciplinas</title>
+<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=no" />
+        <link href="./css/new1.css" rel="stylesheet" type="text/css" media="all" />
     </head>
     <body>
-        <header>
-            <nav id="menu">
-                <ul>
-                    <li><a href="index.html" style="font-family: verdana">Home</a></li>
-                    <li><a href="#"style="font-family: verdana">Cursos</a></li>
-                    <li><a href="noticia.html"style="font-family: verdana">Noticias</a></li>
-                    <li><a href="#"style="font-family: verdana">Sobre nós</a></li>
-                </ul>
-            </nav>
-        </header>
+    <div id="header-wrapper">
+	<div id="header" class="container">
+		<div id="logo">
+        	<span class="icon icon-cog"></span>
+			<h1><a href="#">Universidade Phoenix</a></h1>
+		</div>
+		<div id="menu">
+			<ul>
+				<li ><a href="index.html"title="">Inicio</a></li>
+				<li class="active"><a href="#">Cursos</a></li>
+				<li><a href="#">Notícias</a></li>
+				<li><a href="sobrenos.html">Sobre nós</a></li>
+				<li><a href="#">Contatos</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
                 
-        <section>
-            <div class="wrapper">
-                <div class="noticia" >Bem vindo ao site da Universidade Phoenix</div>
-            </div>  
-        </section>
+       
         
         <section>
             <h1 style="font-size: 34px">Disciplinas</h1>
-                <table style="width:100%">
+			
+                <table style="width:50%">
                             <tr>
                                 <th rowspan="5"> <b>ADS</b> </th>
                                 <td><a href="#">Linguagem de Programação</a></td>
@@ -65,8 +94,9 @@
                             <tr><td><a href="#">Linguagem SQL</a></td></tr>
                             <tr><td><a href="#">Engenharia de Software</a></td></tr>
                 </table>
-                <br>
-                <table style="width:100%">
+				
+              
+                <table style="width:50%";>
                         <tr>
                             <th rowspan="5"> <b>GESTÃO DE TI</b> </th>
                             <td><a href="#">Banco de Dados</a></td>
@@ -76,8 +106,8 @@
                         <tr><td><a href="#">Linguagem Programação</a></td></tr>
                         <tr><td><a href="#">Matemática Aplicada</a></td></tr>
             </table>
-            <br>
-            <table style="width:100%">
+			
+            <table style="width:50%">
                     <tr>
                         <th rowspan="5"> <b>PROCESSOS GERENCIAIS</b> </th>
                         <td><a href="#">Comportamento Organizacional</a></td>
@@ -87,8 +117,8 @@
                     <tr><td><a href="#">Inteligência de Negócios</a></td></tr>
                     <tr><td><a href="#">Modelagem de Processos de Negócio</a></td></tr>
         </table>
-        <br>
-        <table style="width:100%">
+        
+        <table style="width:50%">
                 <tr>
                     <th rowspan="5"> <b>PRODUÇÃO MULTIMÍDIA</b> </th>
                     <td><a href="#">Administração de Negócios e Sustentabilidade</a></td>
@@ -97,12 +127,33 @@
                 <tr><td><a href="#">Cibercultura</a></td></tr>
                 <tr><td><a href="#">Design Thinking</a></td></tr>
                 <tr><td><a href="#">Efeitos Especiais</a></td></tr>
+				
     </table>
-
        
                 
         </section>
-		
-
-    </body>
+<footer>
+<div id="footer">
+	<div class="container">
+		<div class="fbox1">
+			<span>
+				<br/>Av. Rudge, 315
+			<br />Bom Retiro, São Paulo</span>
+		</div>
+		<div class="fbox2">
+			<span>
+				<br/>Telefone: 11 97743-5710
+			</span>
+		</div>
+		<div class="fbox3">
+			<span>
+				<br/>phoeniximpacta@gmail.com
+			</span>
+		</div>
+		<div id="copyright">
+		<p>&copy; Phoenix. Todos os direitos reservados. | Fotos de Lucas Cirino e Henrique Borges.</p>
+	</div>
+</div>
+</footer>				   
+</body>
 </html>
