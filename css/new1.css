@@ -344,3 +344,21 @@ p, ol, ul
     color: #858585;
 }
 
+/*********** Sobre nos */
+#corp{
+    background-color: rgba(108, 139, 194, 0.56);
+    overflow: hidden;
+    
+}
+#corpo {
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 23px;
+}
+
+#corpo h1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 30px;
+    text-align: center;
+}
