@@ -2,65 +2,45 @@
 <html lang="pt-br">
     <head>
         <style>
-            table {
-                position:relative;
-                float:left;
-		bottom: 5%;		
-		border-collapse: collapse;
-		font-size: 14px;
-                font-family: Verdana;
-				
-	    }
-	    td a{
-		text-decoration: none;
-		font-family: sans-serif;
-		color: #2F4077;
-		transition: 0.5s;
-		font-weight: bold;
-	    }
-	    td:hover{
-		background: #939393;
-		
-		
-		
-		}
-	td a:hover{
-		color:white;
-		}
-            td {
-				
-                border: 1px solid black;
+       
+       #cursos section{
+        text-align: center;	
+        font-weight: bold;
+        float: left;
+        margin: 1em -1.5em;
+        width: 45%;
+        margin-left: 50px;
+        
                 
-                padding: 5px;
-                text-align: left;
-                font-size: 20px;
-                font-family: Verdana;
-		        transition: 0.5s;
-				width: 50%;
-				background:rgba(108, 139, 194, 0.91);
-				
-		
-            }
-            th {
-				
-                border: 1px solid black;
-                
-                text-align: center;
-                font-size: 20px;
-                font-family: Verdana;
-				background:rgba(108, 139, 194, 0.91);
-			
-		   
-            }
-		section h1{
+       
+        
+       }
+		#cursos h1{
             
-            position: relative;
+            
             margin-top: 30px;
             margin-bottom: 30px;
 			text-align: center;	
             color: #2F4077;
-            font-family: verdana;		
-		}
+            	
+        }
+        #cursos a {
+            
+            
+            position: relative;
+            margin-top: 0px;
+            margin-bottom: 30px;
+			text-align: center;	
+            color: #2F4077;
+            font-family: verdana;
+            text-decoration: none;	
+            transition: 0.2s;	
+        }
+        #cursos a:hover {
+            
+            color: crimson;
+         
+        }
         </style>
 
 
@@ -88,58 +68,57 @@
 </div>
                 
        
+      <div id="cursos">  
         
-        <section>
             <h1 style="font-size: 37px">Nossos cursos</h1>
-			
-                <table style="width:50%">
-                            <tr>
-                                <th rowspan="5"> <b>ADS</b> </th>
-                                <td><a href="LP.html">Linguagem de Programação</a></td>
-                            </tr>
-                            <tr><td> <a href="tw.html">Tecnologia Web</a></td></tr>
-                            <tr><td><a href="do.html">DevOps</a></td></tr>
-                            <tr><td><a href="sql.html">Linguagem SQL</a></td></tr>
-                            <tr><td><a href="eg.html">Engenharia de Software</a></td></tr>
-                </table>
-				
-              
-                <table style="width:50%";>
-                        <tr>
-                            <th rowspan="5"> <b>GESTÃO DE TI</b> </th>
-                            <td><a href="bd.html">Banco de Dados</a></td>
-                        </tr>
-                        <tr><td> <a href="cm.html">Comunicação e Expressão</a></td></tr>
-                        <tr><td><a href="iot.html">IoT</a></td></tr>
-                        <tr><td><a href="lm.html">Linguagem Programação</a></td></tr>
-                        <tr><td><a href="mt.html">Matemática Aplicada</a></td></tr>
-            </table>
-			
-            <table style="width:50%">
-                    <tr>
-                        <th rowspan="5"> <b>PROCESSOS GERENCIAIS</b> </th>
-                        <td><a href="co.html">Comportamento Organizacional</a></td>
-                    </tr>
-                    <tr><td> <a href="cg.html">Contabilidade Gerencial</a></td></tr>
-                    <tr><td><a href="gt.html">Gestão de Projetos e Programas</a></td></tr>
-                    <tr><td><a href="in.html">Inteligência de Negócios</a></td></tr>
-                    <tr><td><a href="md.html">Modelagem de Processos de Negócio</a></td></tr>
-        </table>
+            <section>	
+               <div>
+                    <p><h1>ADS</h1></p> 
+                        <p><a href="LP.html">Linguagem de Programação</a></p>
+                            <p><a href="tw.html">Tecnologia Web</a></p>
+                              <p><a href="do.html">DevOps</a></p>
+                                <p><a href="sql.html">Linguagem SQL</a></p>
+                                    <p><a href="eg.html">Engenharia de Software</a></p>
+               </div>
+            </section>	
+            <section>
+                <div>
+                        
+                        <p><h1>GESTÃO DE TI</h1></p>
+                            <p><a href="bd.html">Banco de Dados</a></p>
+                        
+                        <p><a href="cm.html">Comunicação e Expressão</a></p>
+                        <p><a href="iot.html">IoT</a></p>
+                            <p><a href="lm.html">Linguagem Programação</a></p>
+                                <p><a href="mt.html">Matemática Aplicada</a></p>
+                </div>
+            </section>
+         <section>  
+        <div>            
+            <p><h1>PROCESSOS GERENCIAIS</h1> </p>
+                <p><a href="co.html">Comportamento Organizacional</a></p>
+                    
+                    <p><a href="cg.html">Contabilidade Gerencial</a></p>
+                        <p><a href="gt.html">Gestão de Projetos e Programas</a></p>
+                            <p><a href="in.html">Inteligência de Negócios</a></p>
+                                <p><a href="md.html">Modelagem de Processos de Negócio</a></p>
+        </div>
         
-        <table style="width:50%">
-                <tr>
-                    <th rowspan="5"> <b>PRODUÇÃO MULTIMÍDIA</b> </th>
-                    <td><a href="an.html">Administração de Negócios e Sustentabilidade</a></td>
-                </tr>
-                <tr><td> <a href="am.html">Aplicativo Mobile</a></td></tr>
-                <tr><td><a href="cb.html">Cibercultura</a></td></tr>
-                <tr><td><a href="ds.html">Design Thinking</a></td></tr>
-                <tr><td><a href="ef.html">Efeitos Especiais</a></td></tr>
+    </section>
+    <section>  
+            <div>
+                    <p><h1>PRODUÇÃO MULTIMÍDIA</h1> </p>
+                        <p><a href="an.html">Adm. de Negócios e Sustentabilidade</a></p>
+                            <p><a href="am.html">Aplicativo Mobile</a></p>
+                                <p><a href="cb.html">Cibercultura</a></p>
+                                    <p><a href="ds.html">Design Thinking</a></p>
+                                        <p><a href="ef.html">Efeitos Especiais</a></p>
 				
-    </table>
-       
+                                        </div>
+                                             
                 
         </section>
+    </div>
 <footer>
 <div id="footercursos">
 	<div class="container">
