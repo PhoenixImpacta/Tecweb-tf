@@ -179,7 +179,7 @@ p, ol, ul
 #menu li:hover a, #menu li.active a, #menu li.active span
 {
     background: #FFF;
-    border-radius: 5px 0px 0px 0px;
+    border-radius: 5px 5px 0px 0px;
     color: #242424;
     
 }
