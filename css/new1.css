@@ -179,7 +179,7 @@ p, ol, ul
 #menu li:hover a, #menu li.active a, #menu li.active span
 {
     background: #FFF;
-    border-radius: 5px 5px 0px 0px;
+    border-radius: 5px 0px 0px 0px;
     color: #242424;
     
 }
@@ -187,6 +187,18 @@ p, ol, ul
 
 
 #footer
+{
+    position: relative;
+    right:0%;
+    left:0%;
+    overflow: hidden;
+    padding: 0em 0em 0em;
+    background: #474646;
+    text-align: center;
+    
+    
+}
+#footercursos
 {
     position: absolute;
     display: block;
@@ -205,6 +217,19 @@ p, ol, ul
 #footer .fbox1,
 #footer .fbox2,
 #footer .fbox3
+{
+    float: left;
+    width: 320px;
+    height:20px;
+    padding: 0px 0px 0px 40px;
+    color:white;
+    padding-bottom: 5em;
+    
+}
+
+#footercursos .fbox1,
+#footercursos .fbox2,
+#footercursos .fbox3
 {
     float: left;
     width: 320px;
