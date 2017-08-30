@@ -318,19 +318,27 @@ p, ol, ul
     font-weight: 900;
 }
 
-#three-column
+.prop{
+    
+    margin-left: 5em;
+}
+
+#coluna
 {
-    overflow: hidden;
+    
+    margin: 1em -1.5em;
     margin-top: 1em;
-    padding: 1px 3px 3px;
+    float: left;
+    margin-left: 60px;
+    width: 388px;
     border-top: 15px solid rgba(0,0,0,0.2);
     text-align: center;
     background-color: rgba(108, 139, 194, 0.91);
     color:#E9E9E9;		
-    padding-bottom: -2em;
+    
 }
 
-#three-column h2
+#coluna h2
 {
     margin-top: -70px;
     font-size: 1.5em;
@@ -341,24 +349,21 @@ p, ol, ul
 
 
     
-#three-column #tbox1,
-#three-column #tbox2,
-#three-column #tbox3
+#coluna #tbox1,
+#coluna #tbox2,
+#coluna #tbox3
 {
-    border-style: solid;
-    border-width: 0.5px;
-    float: left;
-    width: 318px;
+    
+    
     padding: 80px 40px 0px 30px;
-    padding-bottom: -1em;
+    
+    
     
 }
-#tbox1 .not1 a, .not2 a{
+#coluna #tbox1 .not1 a, .not2 a{
     border-style: dotted;
     border-width: 0.5px;
-    display: inline-block;
-    margin-bottom: 0px;
-    margin-top: 0px;
+    display: block;
     padding: 0.2em 2em;
     background-color: rgba(0, 51, 255, 0.30);
     line-height: 1.1em;
@@ -369,32 +374,33 @@ p, ol, ul
     padding-bottom: 4.3124px;
     
     
+    
 }
 
 
-#tbox1 p:hover {
+#coluna #tbox1 p:hover {
     transition: 0.5s;
     background-color: rgba(0, 24, 122, 0.54)
 }
 
-.not1 p{
+#coluna .not1 p{
     transition: 0.5s;
 }
-.not2 p{
+#coluna .not2 p{
     transition: 0.5s;
 }
 
-#three-column .title
+#coluna .title
 {
     text-align: center;
 }
 
-#three-column .title h2
+#coluna .title h2
 {
     font-size: 1.60em;
 }
 
-#three-column .title .byline
+#coluna .title .byline
 {
     padding-top: 0.50em;
     font-size: 0.90em;
