@@ -46,7 +46,7 @@ p, ol, ul
 .container
 {
     margin: 2px auto;
-    width: 1170px;
+    width: 100%;
 }
 .button
 {
@@ -231,6 +231,7 @@ p, ol, ul
 #footercursos .fbox2,
 #footercursos .fbox3
 {
+    display:relative;
     float: left;
     width: 320px;
     height:20px;
