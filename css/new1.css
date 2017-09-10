@@ -115,6 +115,9 @@ p, ol, ul
 
 #logo
 {
+    display: flex;
+    justify-content: center;
+
     padding: 1em 0em 1m 0em;
 }
 
@@ -148,6 +151,8 @@ p, ol, ul
 #menu
 {
     height: 55px;
+    display: flex;
+    justify-content: center;
 }
 
 #menu ul
