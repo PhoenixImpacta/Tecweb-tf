@@ -3,7 +3,11 @@
             CONFIGURAÇÕES DO SECTION
 =====================================================================
 */
-
+.wrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
 .noticia { 
     background-color: rgba(0, 24, 122, 0.54); 
     color: #fff; 
@@ -11,14 +15,10 @@
     padding: 20px; 
     margin: 3px;
     font-size: 150%; 
-    height: 120px;
+    height: auto;
 }
 
-section{
-    margin-left: 200px;
-    margin-right: 200px;
-    border: 1px solid #000;
-}
+
 
 #desconto{
     margin-top: 32px;
@@ -27,6 +27,7 @@ section{
 }
 
 .imagem_noticia{
+    display:flex;
     float: left;
 }
 
@@ -46,4 +47,17 @@ section{
     margin-top: 30px;
     text-align: left;
     margin-left: 200px;
+}
+
+
+@media only screen and (max-width: 600px) {
+.noticia { 
+    background-color: rgba(0, 24, 122, 0.54); 
+    color: #fff; 
+    border-radius: 5px; 
+    padding: 20px; 
+    margin: 3px;
+    font-size: 100%; 
+    height: auto;
+}
 }

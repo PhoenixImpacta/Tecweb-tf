@@ -395,6 +395,7 @@ p, ol, ul
 @media only screen and (max-width: 600px) {
     #menu
     {
+        
         height: auto;
         width: auto;
         font-size: 0.9em;
@@ -403,9 +404,11 @@ p, ol, ul
     }
     #menu ul
     {
+    
     display: flex;
     flex-direction: column;
     text-align: center;
+    padding: 0em 0em;
 
     }
     
@@ -417,10 +420,10 @@ p, ol, ul
         overflow: hidden;
         flex-direction: column;
         text-decoration: none;
-        font-size: 0.90em;
+        font-size: 0.80em;
         font-weight: 600;
         text-transform: uppercase;
-        line-height: 30px;
+        line-height: 2em;
         border-width: 100%;       
         color: #FFF;
         transition: 0.5s ease;
@@ -431,11 +434,17 @@ p, ol, ul
     {
         display: flex;
         background: #FFF;
-        overflow: hidden;
+        
         color: #242424;
         border-radius: 0px;
         
-        
-        
+    }
+    #logo h1
+    {
+        display: block;
+        margin-bottom: 0.20em;
+        padding: 0.20em 0.9em;
+        font-size: 2em;
     }
 }
+  
