@@ -280,16 +280,11 @@ p, ol, ul
     	
     
 }
-.tbox2 .imagem{
+#coluna .tbox2 {
     display: flex;
-    margin-left:2em;
-    margin-right:2em;
-    margin-bottom: 2em;
-    margin-top: -2em;
+    justify-content: space-around;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
-    
-    
     
 }
 
@@ -304,16 +299,7 @@ p, ol, ul
 
 
     
-#coluna .tbox1,
-#coluna .tbox2,
-#coluna .tbox3
-{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    
-    
-}
+
 #coluna .tbox1 .not1 a, .not2 a{
     border-style: dotted;
     border-width: 0.5px;
@@ -354,17 +340,6 @@ p, ol, ul
     font-size: auto;
     
 }
-#coluna section .tbox2{
-    display: flex;
-    justify-content: space-around;
-    
-
-    
-
-
-
-}
-
 /*********** Sobre nos */
 #corp{
     background-color: rgba(108, 139, 194, 0.56);
@@ -441,7 +416,7 @@ p, ol, ul
 
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 660px) {
     #menu
     {
         display: block;
@@ -487,6 +462,7 @@ p, ol, ul
         padding: 0em 0em;
         
     }
+   
     #logo h1
     {
         display: block;
