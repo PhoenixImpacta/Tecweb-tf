@@ -252,12 +252,12 @@ p, ol, ul
 }
 #tod{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     height:auto;
-    flex-wrap:wrap;
-    align-content: center;
     
+    align-content: center;
 }
+
 #coluna{
     display: flex;
     justify-content: center;
@@ -385,7 +385,6 @@ p, ol, ul
 }
 
 
-
 #desconto{
     margin-top: 32px;
     text-align: left;
@@ -435,7 +434,7 @@ p, ol, ul
 
     }
     
-
+    
     
     #menu li a, #menu li span
     {
@@ -517,21 +516,12 @@ p, ol, ul
         font-size: 0.90em;
         color: rgba(255,255,255,0.6);
     }
-    #tod{
-        display: flex;
-        justify-content: space-between;
-        flex-direction: column;
-        height:auto;
-        flex-wrap: wrap;
-        align-content: center;
-        
-        
-    }
+   
     #coluna{
         display: flex;
         justify-content: center;
         align-content: center;
-        margin: 5px auto;        
+        margin: 0.2em 0em;  
         width: 100%;
     }
     #corpo {
@@ -581,7 +571,16 @@ p, ol, ul
         text-align: left;
         margin-left: 0em; 
     }
-    
+    #tod{
+        display: flex;
+        justify-content: center;
+        height:auto;
+        align-content: center;
+        flex-wrap: wrap;
+        
+        
+        
+    }
     
 }
 
