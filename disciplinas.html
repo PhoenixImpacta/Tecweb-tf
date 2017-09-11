@@ -1,78 +1,46 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head> <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
         <style>
        
-                #cursos{
-                    display: flex;
-                    justify-content: space-between;
-                    text-align: center;	
-                    font-weight: bold;
-                    
-                    }
-                #cursos .borda{
-                    border: solid 1px black;
-                    padding: 10px;
-                }
-                    #cursos h1{
-                        
-                        
-                        margin-top: 30px;
-                        margin-bottom: 30px;
-                        text-align: center;	
-                        color: #2F4077;
-                            
-                    }
-                    #cursos a {
-                        
-                        
-                        position: relative;
-                        margin-top: 0px;
-                        margin-bottom: 30px;
-                        text-align: center;	
-                        color: #2F4077;
-                        font-family: verdana;
-                        text-decoration: none;	
-                        transition: 0.2s;	
-                    }
-                    #cursos a:hover {
-                        
-                        color: crimson;
-                     
-                    }
-        @media only screen and (max-width: 600px) {
-            #cursos{
-                display:flex;
-                justify-content: center;
-                flex-direction: column;
-                }
-                #cursos h1{
-                    
-                    
-                    margin-top: 30px;
-                    margin-bottom: 30px;
-                    text-align: center;	
-                    color: #2F4077;
-                        
-                }
-                #cursos a {
-                    
-                    
-                    position: relative;
-                    margin-top: 0px;
-                    margin-bottom: 30px;
-                    text-align: center;	
-                    color: #2F4077;
-                    font-family: verdana;
-                    text-decoration: none;	
-                    transition: 0.2s;	
-                }
-                #cursos a:hover {
-                    
-                    color: crimson;
-                 
-                }
-            }
+       #cursos section{
+        text-align: center;	
+        font-weight: bold;
+        float: left;
+        margin: 1em -1.5em;
+        width: 45%;
+        margin-left: 50px;
+        
+                
+       
+        
+       }
+		#cursos h1{
+            
+            
+            margin-top: 30px;
+            margin-bottom: 30px;
+			text-align: center;	
+            color: #2F4077;
+            	
+        }
+        #cursos a {
+            
+            
+            position: relative;
+            margin-top: 0px;
+            margin-bottom: 30px;
+			text-align: center;	
+            color: #2F4077;
+            font-family: verdana;
+            text-decoration: none;	
+            transition: 0.2s;	
+        }
+        #cursos a:hover {
+            
+            color: crimson;
+         
+        }
         </style>
 
 
@@ -82,83 +50,97 @@
         <link href="./css/new1.css" rel="stylesheet" type="text/css" media="all" />
     </head>
     <body>
-            <body>
-                    <div id="header-wrapper">
-                        <div id="header" class="container">
-                            <div id="logo">
-                                <span class="icon icon-cog"></span>
-                                <h1><a href="index.html">Universidade Phoenix</a></h1>
-                            </div>
-                            <div id="menu">
-                                <ul>
-                                    <li><a href="index.html">Inicio</a></li>
-                                    <li class="active" ><a href="disciplinas.html">Cursos</a></li>
-                                    <li><a href="noticia.html">Notícias</a></li>
-                                    
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                        
-               
-                
-                
-                    <h1 style="font-size: 37px">Nossos cursos</h1>
-                    <div id="cursos">
-                    	
-                       <div class="borda">
-                            <p><h1>ADS</h1></p> 
-                                <p><a href="LP.html">Linguagem de Programação</a></p>
-                                    <p><a href="tw.html">Tecnologia Web</a></p>
-                                      <p><a href="do.html">DevOps</a></p>
-                                        <p><a href="sql.html">Linguagem SQL</a></p>
-                                            <p><a href="eg.html">Engenharia de Software</a></p>
-                       </div>
-                    
-                        <div class="borda">
-                                
-                                <p><h1>GESTÃO DE TI</h1></p>
-                                    <p><a href="bd.html">Banco de Dados</a></p>
-                                
-                                <p><a href="cm.html">Comunicação e Expressão</a></p>
-                                <p><a href="iot.html">IoT</a></p>
-                                    <p><a href="lm.html">Linguagem Programação</a></p>
-                                        <p><a href="mt.html">Matemática Aplicada</a></p>
-                        </div>
-                  
-                <div class="borda">            
-                    <p><h1>PROCESSOS GERENCIAIS</h1> </p>
-                        <p><a href="co.html">Comportamento Organizacional</a></p>
-                            
-                            <p><a href="cg.html">Contabilidade Gerencial</a></p>
-                                <p><a href="gt.html">Gestão de Projetos e Programas</a></p>
-                                    <p><a href="in.html">Inteligência de Negócios</a></p>
-                                        <p><a href="md.html">Modelagem de Processos de Negócio</a></p>
-                </div>
-                
-             
-                    <div class="borda">
-                            <p><h1>PRODUÇÃO MULTIMÍDIA</h1> </p>
-                                <p><a href="an.html">Adm. de Negócios e Sustentabilidade</a></p>
-                                    <p><a href="am.html">Aplicativo Mobile</a></p>
-                                        <p><a href="cb.html">Cibercultura</a></p>
-                                            <p><a href="ds.html">Design Thinking</a></p>
-                                                <p><a href="ef.html">Efeitos Especiais</a></p>
-                        
-                                            </div>
-                                                     
-                        
-                                        </div>                
-<div id="footer">
-    <p>Av. Rudge, 315</p>
-    <p>Bom Retiro, São Paulo</p>
-    <p>Telefone: 11 97743-5710</p>
-    <p>phoeniximpacta@gmail.com</p>
+    <div id="header-wrapper">
+	<div id="header" class="container">
+		<div id="logo">
+        	<span class="icon icon-cog"></span>
+			<h1><a href="#">Universidade Phoenix</a></h1>
+		</div>
+		<div id="menu">
+			<ul>
+				<li ><a href="index.html"title="">Inicio</a></li>
+				<li class="active"><a href="#">Cursos</a></li>
+				<li><a href="noticia.html">Notícias</a></li>
+				
+			</ul>
+		</div>
+	</div>
 </div>
-<div id="copyright">
-<p>&copy; Phoenix. Todos os direitos reservados. | Fotos de Lucas Cirino e Henrique Borges.</p>
-</div>                                           
-                        
-</body>				   
+                
        
-        </html>
+      <div id="cursos">  
+        
+            <h1 style="font-size: 37px">Nossos cursos</h1>
+            <section>	
+               <div>
+                    <p><h1>ADS</h1></p> 
+                        <p><a href="LP.html">Linguagem de Programação</a></p>
+                            <p><a href="tw.html">Tecnologia Web</a></p>
+                              <p><a href="do.html">DevOps</a></p>
+                                <p><a href="sql.html">Linguagem SQL</a></p>
+                                    <p><a href="eg.html">Engenharia de Software</a></p>
+               </div>
+            </section>	
+            <section>
+                <div>
+                        
+                        <p><h1>GESTÃO DE TI</h1></p>
+                            <p><a href="bd.html">Banco de Dados</a></p>
+                        
+                        <p><a href="cm.html">Comunicação e Expressão</a></p>
+                        <p><a href="iot.html">IoT</a></p>
+                            <p><a href="lm.html">Linguagem Programação</a></p>
+                                <p><a href="mt.html">Matemática Aplicada</a></p>
+                </div>
+            </section>
+         <section>  
+        <div>            
+            <p><h1>PROCESSOS GERENCIAIS</h1> </p>
+                <p><a href="co.html">Comportamento Organizacional</a></p>
+                    
+                    <p><a href="cg.html">Contabilidade Gerencial</a></p>
+                        <p><a href="gt.html">Gestão de Projetos e Programas</a></p>
+                            <p><a href="in.html">Inteligência de Negócios</a></p>
+                                <p><a href="md.html">Modelagem de Processos de Negócio</a></p>
+        </div>
+        
+    </section>
+    <section>  
+            <div>
+                    <p><h1>PRODUÇÃO MULTIMÍDIA</h1> </p>
+                        <p><a href="an.html">Adm. de Negócios e Sustentabilidade</a></p>
+                            <p><a href="am.html">Aplicativo Mobile</a></p>
+                                <p><a href="cb.html">Cibercultura</a></p>
+                                    <p><a href="ds.html">Design Thinking</a></p>
+                                        <p><a href="ef.html">Efeitos Especiais</a></p>
+				
+                                        </div>
+                                             
+                
+        </section>
+    </div>
+<footer>
+<div id="footercursos">
+	<div class="container">
+		<div class="fbox1">
+			<span>
+				<br/>Av. Rudge, 315
+			<br />Bom Retiro, São Paulo</span>
+		</div>
+		<div class="fbox2">
+			<span>
+				<br/>Telefone: 11 97743-5710
+			</span>
+		</div>
+		<div class="fbox3">
+			<span>
+				<br/>phoeniximpacta@gmail.com
+			</span>
+		</div>
+		<div id="copyright">
+		<p>&copy; Phoenix. Todos os direitos reservados. | Fotos de Lucas Cirino e Henrique Borges.</p>
+	</div>
+</div>
+</footer>				   
+</body>
+</html>

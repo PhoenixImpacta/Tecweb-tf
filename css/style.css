@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    border: none;
+    outline: none;
+    font-weight: 300;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #fff;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+/*  Cabecalho */
+
+.cabecalho{
+    width: 100%;
+    float: left;
+    padding: 3% 4%;
+    background: linear-gradient(#27279C,rgb(13, 84, 159));
+}
+
+.logo{
+    width: 56px;
+    height: 56px;
+    float: left;
+    background: url("../imagem/phoenix.jpg") center center/56px no-repeat;
+    font-size: 0;
+}
+
+.btn-menu{
+    width: 56px;
+    height: 56px;
+    float: right;
+    text-align: center;
+    color: #fff;
+    border-radius: 56px;
+    cursor: pointer;
+    background: linear-gradient(#27279C,rgb(13, 84, 159));
+}
+
+/* Menu */
+.menu{
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: rgba(0,0,0,0.9);
+    top: 0;
+    left: 0;
+}
+
+.btn-close{
+    font-size: 1.5em;
+    color: #fff;
+    float: right;
+    cursor: pointer;
+    margin: 2% 3% 0 0;
+}
+
+.menu ul{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.menu li{
+    padding: 1.5%;
+}
+
+.menu li a{
+    font-size: 2em;
+    color: #fff;
+    padding: 1.5% 3%;
+}
+
+.menu a:hover{
+    border: 1px solid #fff;
+}
+
+/* Banner */
+.banner{
+    width: 100%;
+    float: left;
+}
+
+/* Colunas */
+.coluna{
+    width: 100%;
+    float: left;
+    margin-top: 2%;
+    border-top: 15px solid rgba(0,0,0,0.2);
+    background-color: rgba(108, 139, 194, 0.91);
+}
+
+/* Primeira Sessão */
+.tbox1{
+    padding: 2% 5%;
+}
+
+.tbox1 h2{
+    font-size: 1.5em;
+    font-weight: 700;
+    text-align: center;
+    color:#E9E9E9;
+}
+
+.tbox1 p{
+    padding: 1%;
+    float: left;
+    border-style: dotted;
+    border-width: 1px;
+    border-color: #fff;
+    margin: 2%;
+    letter-spacing: 0.5px;
+    color:#E9E9E9;
+    background-color: rgba(0, 51, 255, 0.30);
+}
+
+.tbox1 a{
+    padding: 1%;
+    margin: 2%;
+    width: 100%;
+    float: left;
+    color:#E9E9E9;
+    background-color: #C97835;
+    text-align: center;
+    font-weight: 700;
+}
+
+.tbox1 a:hover{
+    transition: 0.5s;
+    background-color:  #FE8B2C;
+}
+
+/* Segunda Sessão */
+.tbox2{
+    padding: 2% 6%;
+}
+
+.tbox2 h2{
+    font-size: 1.5em;
+    font-weight: 700;
+    text-align: center;
+    color:#E9E9E9;
+    margin-bottom: 4%;
+}
+
+.tbox2 a{
+    margin: 2% 0 0 0;
+}
+
+.tbox2 a:hover{
+    filter: brightness(150%) blur(2px);
+}
+
+/* Terceira Sessão */
+.tbox3{
+    padding: 2% 6%;
+}
+
+.tbox3 h2{
+    font-size: 1.5em;
+    font-weight: 700;
+    float: left;
+    color:#E9E9E9;
+    margin-bottom: 15%;
+}
+
+.tbox3 a{
+    padding: 1%;
+    margin: 2%;
+    width: 100%;
+    float: left;
+    color:#E9E9E9;
+    background-color: #C97835;
+    text-align: center;
+    font-weight: 700;
+}
+
+.tbox3 a:hover{
+    transition: 0.5s;
+    background-color:  #FE8B2C;
+}
+
+/* Quarta Sessão */
+.tbox4{
+    width: 100%;
+    float: left;
+    margin-top: 2%;
+    padding: 2% 6%;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    font-weight: 500;
+    font-size: 1em;
+    line-height: 1.5;
+    color: rgb(0, 0, 89);
+    background-color:rgba(0, 51, 255, 0.30)
+}
+
+.tbox4 h3{
+    font-weight: 700;
+    color: rgb(0, 0, 89);
+    font-size: 1.5em;
+}
+
+.tbox4 a{
+    padding: 1%;
+    width: 100%;
+    float: left;
+    color:#E9E9E9;
+    background-color: #C97835;
+    text-align: center;
+    font-weight: 700;
+}
+
+.tbox4 a:hover{
+    transition: 0.5s;
+    background-color:  #FE8B2C;
+}
+
+/* Footer */
+.footer{
+    width: 100%;
+    display: flex;
+}
+
+.container{
+    background-color: #474646;
+    justify-content: flex-end;
+    color: #fff;
+    padding: 2% 6%;
+}

@@ -1,111 +1,106 @@
-<html>
-<head> <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta charset="utf-8" />
-<title>Phoenix Impacta</title>
-<link href="./css/new1.css" rel="stylesheet" type="text/css" media="all" />
-<style>
-		img {
-			width: 100%;
-			height: auto;
-		}	
-</style>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Phoenix Impacta</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
+	<link rel="stylesheet" href="css/new1.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
 <body>
-<div id="header-wrapper">
-	<div id="header" class="container">
-		<div id="logo">
-        	<span class="icon icon-cog"></span>
-			<h1><a href="index.html">Universidade Phoenix</a></h1>
-		</div>
-		<div id="menu">
+	<header class="cabecalho">
+		<a href="index.html"><h1 class="logo">Universidade Phoenix</h1></a>
+		<button class="btn-menu"><i class="fa fa-bars fa-lg"></i></button>
+		<nav class="menu">
+			<a class="btn-close"><i class="fa fa-times"></i></a>
 			<ul>
-				<li class="active"><a href="index.html">Inicio</a></li>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="noticia.html">Noticias</a></li>
 				<li><a href="disciplinas.html">Cursos</a></li>
-				<li><a href="noticia.html">Notícias</a></li>
-				
 			</ul>
-		</div>
+		</nav>
+	</header>
+
+	<div class="banner">
+		<a href="#"><img src="imagem/aa.jpg" alt="Sua indicação vale um presente! :)"></a>
 	</div>
-</div>
 
-
-<div>
-	<a href="disciplinas.html" target="_blank">
-		<img src="./aa.jpg" >
-	</a>
-</div>
-<div id="tod">	
-	<div id="coluna">
-	<section>
+	<article class="coluna">
 		<div class="tbox1">
-			<div class="title">
-				<h2>Ultimas notícias</h2>
-			</div>
-				<div class="not1">
-					<p><a href="noticia.html">Alunos da Faculdade Phoenix vencem a 5.ª edição do Hackathon da FIESP</a></p>
-				</div>
-				<div class="not2">
-						<p><a href="noticia.html">Alunos do Curso de Administração da Faculdade Impacta apresentam trabalho de conclusão de curso</a></p>
-				</div>
-					<a href="noticia.html" class="button">Saiba mais</a> </div>
-			</div>		
-	</section>
-	<div id="coluna">
-	<section>
-		<div class="tbox2">
-			<div class="title">
-				<h2>Conheça a Universidade</h2>
-			</div>
-			<div class="imagem">
-			<a href="sobrenos.html">
-			<img src="./imagem/chapeu.jpg" alt="conheca">
-			</a>
-			</div>
-		</div>	
-	</section>
-</div>
 
-<div id="coluna">
-	<section>	
-		<div class="tbox3">
-			<div class="propaganda">
-				<h2>Você dentro de uma faculdade que é referência em tecnologia.</h2>
-			</div>
-			<p></p>
-		<a href="disciplinas.html" class="button2">Venha para a Phoenix</a> </div>
-		</section>
-	</div>
-    </section>
-</div>
+			<h2>Ultimas notícias</h2>
 
+			<p>Alunos da Faculdade Phoenix vencem a 5.ª edição do Hackathon da FIESP</p>
 
-	<div id="sobre" class="container">
-		
-			<div class="box">
-			  <h3>Sobre</h3>
-				<p>Fundada em 1636 em São Paulo, SP,  <strong>Phoenix</strong>  é a mais antiga e conhecida universidade dos Brasil. Inicialmente chamada de Fenix, ganhou seu nome icônico três anos após a fundação em uma homenagem a John Phoenix, um de seus primeiros benfeitores.
-				<a href="sobrenos.html">saiba mais</a>	
-				</p>
-		  
+			<p>Alunos do Curso de Administração da Faculdade Impacta apresentam trabalho de conclusão de curso</p>
+
+			<a href="noticia.html">Saiba mais</a>
 		</div>
+	</article>
 
-		
-	</div>
-</div>
-<div id="footer">
-				<p>Av. Rudge, 315</p>
-				<p>Bom Retiro, São Paulo</p>
-				<p>Telefone: 11 97743-5710</p>
-				<p>phoeniximpacta@gmail.com</p>
-	</div>
-	<div id="copyright">
-	<p>&copy; Phoenix. Todos os direitos reservados. | Fotos de Lucas Cirino e Henrique Borges.</p>
-	</div>
+	<article class="coluna">
+		<div class="tbox2">
 
+			<h2>Conheça a Universidade</h2>
+
+			<a href="sobrenos.html">
+				<img src="imagem/chapeu.jpg" alt="Conheça nossa universidade">
+			</a>
+		</div>
+	</article>
 
 
+	<article class="coluna">
+		<div class="tbox3">
+			<h2>Você dentro de uma faculdade que é referência em tecnologia.</h2>
+			<a href="disciplinas.html">Venha para a Phoenix</a>
+		</div>
+	</article>
 
+	<article class="tbox4">
+			<h2>Sobre</h2>
+			<p>Fundada em 1636 em São Paulo, SP,  <strong>Phoenix</strong>  é a mais antiga e conhecida universidade dos Brasil. Inicialmente chamada de Fenix, ganhou seu nome icônico três anos após a fundação em uma homenagem a John Phoenix, um de seus primeiros benfeitores.</p>
+			<a href="sobrenos.html">Saiba mais</a>
+	</article>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="fbox1">
+                <span>
+                    <br/>Av. Rudge, 315
+                <br />Bom Retiro, São Paulo</span>
+			</div>
+			<div class="fbox2">
+                <span>
+                    <br/>Telefone: 11 97743-5710
+                </span>
+			</div>
+			<div class="fbox3">
+                <span>
+                    <br/>phoeniximpacta@gmail.com
+                </span>
+			</div>
+			<br>
+			<div id="copyright">
+				<span>
+					<p>&copy; Phoenix. <br>Todos os direitos reservados. | Fotos de Lucas Cirino e Henrique Borges.</p>
+				</span>
+			</div>
+		</div>
+	</footer>
+
+
+	<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+	<script>
+        $(".btn-menu").click(function(){
+            $(".menu").show();
+        });
+
+        $(".btn-close").click(function () {
+            $(".menu").hide();
+        });
+	</script>
 
 </body>
 </html>
