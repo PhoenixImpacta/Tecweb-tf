@@ -252,10 +252,9 @@ p, ol, ul
 }
 #tod{
     display: flex;
-    justify-content: space-around;
-    height:auto;
+    justify-content: center;
+    flex-flow: row wrap;   
     
-    align-content: center;
 }
 
 #coluna{
@@ -263,14 +262,13 @@ p, ol, ul
     justify-content: center;
     align-content: flex-end;
     width: 30%;
-    
-    
 }
 
 
 #coluna section
 {
     display: flex;
+    
     align-items: center;
     width: 90%;
     text-align: center;
@@ -284,7 +282,7 @@ p, ol, ul
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    align-items: center;
+    
     
 }
 
