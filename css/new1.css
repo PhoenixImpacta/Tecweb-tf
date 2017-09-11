@@ -373,9 +373,7 @@ p, ol, ul
     
 }
 #corpo {
-    margin-left: 100px;
-    margin-right: 100px;
-    font-size: 23px;
+    font-size: 1.2em;
     overflow: hidden;
     text-align: center;
     
@@ -384,7 +382,7 @@ p, ol, ul
 #corpo h1{
     margin-top: 50px;
     margin-bottom: 50px;
-    font-size: 30px;
+    font-size: 1.5em;
     text-align: center;
 }
 
@@ -420,8 +418,7 @@ p, ol, ul
 }
 
 .imagem_noticia{
-    display:flex;
-    float: left;
+   float: left; 
 }
 
 #tecnologia{
@@ -447,20 +444,19 @@ p, ol, ul
 @media only screen and (max-width: 600px) {
     #menu
     {
-        
+        display: block;
         height: auto;
-        width: auto;
-        font-size: 0.9em;
-        justify-content: center;
+        width: 100%;
+        font-size: 1.4em;
+        
         
     }
     #menu ul
     {
-    
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding: 0em 0em;
+    padding: 1em 0em 0em;
 
     }
     
@@ -468,14 +464,14 @@ p, ol, ul
     
     #menu li a, #menu li span
     {
-        
+        display: flex;
+        justify-content: center;
         overflow: hidden;
-        flex-direction: column;
         text-decoration: none;
-        font-size: 0.80em;
+        font-size: 100%;
         font-weight: 600;
         text-transform: uppercase;
-        line-height: 2em;
+        line-height: 1.6em;
         border-width: 100%;       
         color: #FFF;
         transition: 0.5s ease;
@@ -486,17 +482,17 @@ p, ol, ul
     {
         display: flex;
         background: #FFF;
-        
         color: #242424;
         border-radius: 0px;
+        padding: 0em 0em;
         
     }
     #logo h1
     {
         display: block;
-        margin-bottom: 0.20em;
-        padding: 0.20em 0.9em;
-        font-size: 2em;
+        margin-bottom: 0em;
+        padding: 0em 0em;
+        font-size: 2.7em;
     }
 
     .noticia { 
@@ -561,9 +557,56 @@ p, ol, ul
         align-content: center;
         margin: 5px auto;        
         width: 100%;
-        
+    }
+    #corpo {
+        font-size: 1.2em;
+        overflow: hidden;
+        text-align: left;
+        line-height: 1em;
         
     }
+
+    #desconto{
+        display:flex;
+        justify-content: center;
+        margin-top: 1em;
+        text-align: left;
+        margin-left: 0em;    
+    }
+    
+    .imagem_noticia{
+       display: flex;
+       justify-content: center;
+       float: none; 
+       display: flex;
+
+    }
+    
+    #tecnologia{
+        display:flex;
+        justify-content: center;
+        margin-top: 1em;
+        text-align: left;
+        margin-left: 0em;     
+    }
+    
+    #tcc{
+        display:flex;
+        justify-content: center;
+        margin-top: 1em;
+        text-align: left;
+        margin-left: 0em;    
+    }
+    
+    #emprego{
+        display:flex;
+        justify-content: center;
+        margin-top: 1em;
+        text-align: left;
+        margin-left: 0em; 
+    }
+    
+    
 }
 
   
