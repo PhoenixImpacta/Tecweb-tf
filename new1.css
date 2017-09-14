@@ -1,0 +1,594 @@
+html, body
+{
+    height: 100%;
+}
+
+body
+{
+    margin: 0px;
+    padding: 0px;
+    background-image: url("phoenix.jpg");
+    background-size:100%;
+    background-attachment: fixed;
+    font-family: 'Questrial', sans-serif;
+    font-size: 12pt;
+    
+}
+
+
+    
+  
+.imagem:hover {
+    filter: brightness(150%) blur(2px);
+  }
+
+h1, h2, h3
+{
+    margin: 0;
+    padding: 0;
+    color: #404040;
+}
+
+p, ol, ul
+{
+    margin-top: 0;
+}
+
+.container
+{
+    margin: 2px auto;
+    width: 100%;
+}
+.button
+{
+    display: inline-block;
+    margin-top: 2em;
+    padding: 0.8em 2em;
+    background: #C97835;
+    line-height: 1.8em;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-size: 1em;
+    color: #FFF;
+    transition: 0.5s;
+}
+
+.button:hover{
+    background: #FE8B2C;
+}
+
+.button2
+{
+    display: inline-block;
+    margin-top: 9.2em;
+    padding: 0.8em 2em;
+    background: #C97835;
+    line-height: 1.8em;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-size: 1em;
+    color: #FFF;
+    transition: 0.5s;
+}
+
+.button2:hover{
+    background: #FE8B2C;
+}
+.title 
+{
+    margin-bottom: 3em;
+    text-decoration: none;
+        
+}
+.propaganda 
+{
+    position: relative;
+    margin-bottom: 3em;
+    top:100px;
+    text-decoration: none;
+}
+.title a {
+    text-decoration: none;	
+}
+    
+
+#header-wrapper
+{
+    overflow: hidden;
+    background: linear-gradient(#27279C,rgb(13, 84, 159));
+}
+
+#header
+{
+    text-align: center;
+}
+
+
+#logo
+{
+    display: flex;
+    justify-content: center;
+
+    padding: 1em 0em 1m 0em;
+}
+
+#logo h1
+{
+    display: block;
+    margin-bottom: 0.20em;
+    padding: 0.20em 0.9em;
+    font-size: 3.5em;
+}
+
+#logo a
+{
+    text-decoration: none;
+    color: #FFF;
+}
+
+#logo span
+{
+    text-transform: uppercase;
+    font-size: 2.90em;
+    color: rgba(255,255,255,1);
+}
+
+#logo span a
+{
+    color: rgba(255,255,255,0.8);
+}
+
+
+#menu
+{
+    height: 55px;
+   
+}
+
+#menu ul
+{
+    display: inline-block;
+    padding: 0em 2em;
+    text-align: center;
+}
+
+#menu li
+{
+    display: inline-block;
+}
+
+#menu li a, #menu li span
+{
+    display: inline-block;
+    padding: 0em 1.5em;
+    text-decoration: none;
+    font-size: 0.90em;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 60px;
+    outline: 0;
+    color: #FFF;
+    transition: 0.5s ease;
+}
+
+#menu li:hover a, #menu li.active a, #menu li.active span
+{
+    background: #FFF;
+    border-radius: 5px 5px 0px 0px;
+    color: #242424;
+    
+}
+
+
+
+#footer
+{
+    display: flex;
+    justify-content: space-around;
+    align-self: flex-end;
+    background: #474646;
+    
+    color: white;
+   
+    
+    
+    
+}
+#footer p{
+    margin-top: 2em;
+    margin-bottom: auto;
+    
+    color: white;
+    
+    
+}
+#copyright
+{
+    padding: 100px 100px 0px;
+    background-color: #474646;
+    text-align: center;
+}
+
+#copyright p
+{
+    letter-spacing: 1px;
+    font-size: 0.90em;
+    color: rgba(255,255,255,0.6);
+}
+
+
+#sobre
+{
+    overflow: hidden;
+    padding-top: 3em;
+    
+    
+}
+
+#sobre .box
+{
+    float: left;
+    border-style: solid;
+    border-color: white;
+    border-width: 0.5px;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(0, 0, 89);
+    background-color:rgba(0, 51, 255, 0.30)
+}
+
+#sobre h3
+{
+    display: block;
+    padding-bottom: 5px;
+    font-size: 20px;
+    color: rgb(0, 0, 89);
+    font-weight: 900;
+}
+
+.prop{
+    
+    margin-left: 5em;
+}
+#tod{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;   
+    
+}
+
+#coluna{
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+    width: 30%;
+}
+
+
+#coluna section
+{
+    display: flex;
+    
+    align-items: center;
+    width: 90%;
+    text-align: center;
+    border-top: 15px solid rgba(0,0,0,0.2);
+    background-color: rgba(108, 139, 194, 0.91);
+    color:#E9E9E9;	
+    	
+    
+}
+#coluna .tbox2 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+    
+}
+
+#coluna h2
+{
+    margin-top: 0px;
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #E9E9E9;
+    
+}
+
+
+    
+
+#coluna .tbox1 .not1 a, .not2 a{
+    border-style: dotted;
+    border-width: 0.5px;
+    display: flex;
+    padding: 0.2em 2em;
+    background-color: rgba(0, 51, 255, 0.30);
+    
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-size: 1em;
+    color: #FFF;
+   
+    
+    
+    
+}
+
+
+#coluna .tbox1 p:hover {
+    transition: 0.5s;
+    background-color: rgba(0, 24, 122, 0.54)
+}
+
+#coluna .not1 p{
+    transition: 0.5s;
+}
+#coluna .not2 p{
+    transition: 0.5s;
+}
+
+
+
+#coluna .title 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: auto;
+    
+}
+/*********** Sobre nos */
+#corp{
+    background-color: rgba(108, 139, 194, 0.56);
+    overflow: hidden;
+    
+    
+}
+#corpo {
+    font-size: 1.2em;
+    overflow: hidden;
+    text-align: center;
+    
+}
+
+#corpo h1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+/*
+======================================================================
+*/
+/*
+=====================================================================
+            CONFIGURAÇÕES DO SECTION
+=====================================================================
+*/
+.wrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.noticia { 
+    background-color: rgba(0, 24, 122, 0.54); 
+    color: #fff; 
+    border-radius: 5px; 
+    padding: 20px; 
+    margin: 3px;
+    font-size: 150%; 
+    height: auto;
+}
+
+
+#desconto{
+    margin-top: 32px;
+    text-align: left;
+    margin-left: 200px;    
+}
+
+.imagem_noticia{
+   float: left; 
+}
+
+#tecnologia{
+    margin-top: -15px;
+    text-align: left;
+    margin-left: 200px;    
+}
+
+#tcc{
+    margin-top: 30px;
+    text-align: left;
+    margin-left: 200px;    
+}
+
+#emprego{
+    margin-top: 30px;
+    text-align: left;
+    margin-left: 200px;
+}
+
+
+
+@media only screen and (max-width: 660px) {
+    #menu
+    {
+        display: block;
+        height: auto;
+        width: 100%;
+        font-size: 1.4em;
+        
+        
+    }
+    #menu ul
+    {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 1em 0em 0em;
+
+    }
+    
+    
+    
+    #menu li a, #menu li span
+    {
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+        text-decoration: none;
+        font-size: 100%;
+        font-weight: 600;
+        text-transform: uppercase;
+        line-height: 1.6em;
+        border-width: 100%;       
+        color: #FFF;
+        transition: 0.5s ease;
+       
+    }
+    
+    #menu li:hover a, #menu li.active a, #menu li.active span
+    {
+        display: flex;
+        background: #FFF;
+        color: #242424;
+        border-radius: 0px;
+        padding: 0em 0em;
+        
+    }
+   
+    #logo h1
+    {
+        display: block;
+        margin-bottom: 0em;
+        padding: 0em 0em;
+        font-size: 2.7em;
+    }
+
+    .noticia { 
+        background-color: rgba(0, 24, 122, 0.54); 
+        color: #fff; 
+        border-radius: 5px; 
+        padding: 20px; 
+        margin: 3px;
+        font-size: 100%; 
+        height: auto;
+    }
+    #footer
+    {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-self: flex-end;
+        background: #474646;
+        
+        color: white;
+       
+    }
+    #footer p{
+        display: flex;
+        justify-content: center;
+        margin-top: 1em;
+        margin-bottom: 0.2em;
+        height: 0em;
+        font-size: 0.8em;
+        letter-spacing: 0.1em;
+        
+        color: white;
+        
+        
+    }
+    #copyright
+    {
+        background-color: #474646;
+        text-align: center;
+    }
+    
+    #copyright p
+    {
+        margin-top: -4em;
+        letter-spacing: 0.1em;
+        font-size: 0.90em;
+        color: rgba(255,255,255,0.6);
+    }
+   
+    #coluna{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        margin: 0.2em 0em;  
+        width: 100%;
+    }
+    #corpo {
+        font-size: 1.2em;
+        overflow: hidden;
+        text-align: left;
+        line-height: 1em;
+        
+    }
+
+    #desconto{
+        display:flex;
+        justify-content: center;
+        margin-top: 1em;
+        text-align: left;
+        margin-left: 0em;    
+    }
+    
+    .imagem_noticia{
+       display: flex;
+       justify-content: center;
+       float: none; 
+       display: flex;
+
+    }
+    
+    #tecnologia{
+        display:flex;
+        justify-content: center;
+        margin-top: 1em;
+        text-align: left;
+        margin-left: 0em;     
+    }
+    
+    #tcc{
+        display:flex;
+        justify-content: center;
+        margin-top: 1em;
+        text-align: left;
+        margin-left: 0em;    
+    }
+    
+    #emprego{
+        display:flex;
+        justify-content: center;
+        margin-top: 1em;
+        text-align: left;
+        margin-left: 0em; 
+    }
+    #tod{
+        display: flex;
+        justify-content: center;
+        height:auto;
+        align-content: center;
+        flex-wrap: wrap;
+        
+        
+        
+    }
+    
+}
+
+#contato{
+
+    display: flex;
+    justify-content: center;
+    size: 30px;
+    font-family: "Arial Black";
+
+}
+
+  
